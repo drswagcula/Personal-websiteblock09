@@ -19,7 +19,7 @@ body {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #3498db;
+    background-color: #2f7243;
 }
 
 .navbar a:hover {
@@ -28,11 +28,23 @@ body {
 
 .container {
     padding: 20px;
+
 }
 
 h1 {
     color: #e74c3c;
-    text-align: center;
+    text-align: flex;
+    max-height: 90%
+}
+
+h2 {
+    color: #e74c3c;
+    text-align: flex;
+}
+
+h3 {
+    color: #e74c3c;
+    text-align: flex;
 }
 
 .floated-image {
@@ -68,4 +80,24 @@ h1 {
     max-width: 10px;
     height: auto;
     margin-bottom: 10px;
+}
+
+div {
+    display: block;
+    height: 450px;
+    width: 100%;
+}
+
+.Alt-img{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+.alt-left{
+    left: 0%;
+}
+
+.smallb{
+    display: flex;
 }
