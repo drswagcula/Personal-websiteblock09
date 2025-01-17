@@ -8,3 +8,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   window.location.href = window.location.origin + '/success.html'
 })
+
+setTimeout(() => {
+    window.location.href = window.location.origin
+  }, 5000)
