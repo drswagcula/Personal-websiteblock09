@@ -33,18 +33,21 @@ body {
 
 h1 {
     color: #e74c3c;
-    text-align: flex;
-    max-height: 90%
+    max-width: 50%;
+    max-height: 1024px;
+    flex-wrap: wrap;
 }
 
 h2 {
     color: #e74c3c;
-    text-align: flex;
+    text-align: right;
+    flex-wrap: wrap;
 }
 
 h3 {
     color: #e74c3c;
     text-align: flex;
+    flex-wrap: wrap;
 }
 
 .floated-image {
@@ -89,15 +92,39 @@ div {
 }
 
 .Alt-img{
-    height: 400px;
-    width: 400px;
-    float: right;
+    height: 55%;
+    width: 60%;
+    display: flex;
+    
 }
 
 .alt-left{
-    left: 0%;
-}
-
-.smallb{
+    right: 50%;
+    height: 55%;
+    width: 60%;
+    float: right;
     display: flex;
 }
+
+
+@media (max-width: 768px) {
+    .body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        grid-template-columns: 1fr;
+    }
+
+    input {
+        width: 90%;
+    }
+    .message {
+        height:145px;
+        font-size:14pt;
+        background-color: #f4f4f4;
+        border: px solid #ccc;
+    }
+} 
