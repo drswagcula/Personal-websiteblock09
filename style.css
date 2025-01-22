@@ -111,6 +111,16 @@ div {
     .body {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    input {
+        width: 90%;
+    }
+    .message {
+        height:145px;
+        font-size:14pt;
+        background-color: #f4f4f4;
+        border: px solid #ccc;
+    }
 }
 
 @media (max-width: 480px) {
